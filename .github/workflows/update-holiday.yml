@@ -13,6 +13,11 @@ on:
         required: true
         description: EndInclusive Year
         type: number
+      FETCH_ENFORCE:
+        required: true
+        description: EndInclusive Year
+        default: false
+        type: boolean
 
 jobs:
   update-holiday:
@@ -36,6 +41,7 @@ jobs:
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
             export START_YEAR=${{ inputs.START_YEAR }}
             export END_INCLUSIVE_YEAR=${{ inputs.END_INCLUSIVE_YEAR }}
+            export FETCH_ENFORCE=${{ inputs.FETCH_ENFORCE }}
           fi
           ./gradlew updateHoliday
 

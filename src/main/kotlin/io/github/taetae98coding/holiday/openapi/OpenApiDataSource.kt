@@ -107,10 +107,13 @@ data object OpenApiDataSource {
     }
 
     private fun useCache(yearMonth: YearMonth): Boolean {
+        if (System.getenv("FETCH_ENFORCE") == "true") {
+            return false
+        }
+
         val today = Clock.System.todayIn(TimeZone.currentSystemDefault())
         val isPast = yearMonth < today.yearMonth
-        val isDebug = System.getenv("DEBUG") == "true"
 
-        return isDebug && isPast
+        return isPast
     }
 }
