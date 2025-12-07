@@ -1,0 +1,64 @@
+name: Update Holiday
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      START_YEAR:
+        required: true
+        description: Start Year
+        type: number
+      END_INCLUSIVE_YEAR:
+        required: true
+        description: EndInclusive Year
+        type: number
+
+jobs:
+  update-holiday:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Run Gradle Task
+        env:
+          SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            export START_YEAR=${{ inputs.START_YEAR }}
+            export END_INCLUSIVE_YEAR=${{ inputs.END_INCLUSIVE_YEAR }}
+          fi
+          ./gradlew updateHoliday
+
+      - name: Configure Git
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+              git commit -m "[TRIGGER] Update holiday ${{ inputs.START_YEAR }}-${{ inputs.END_INCLUSIVE_YEAR }}"
+            else
+              git commit -m "[AUTOMATION] Update holiday"
+            fi
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Push changes
+        if: steps.commit.outputs.changed == 'true'
+        run: git push
