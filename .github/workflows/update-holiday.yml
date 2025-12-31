@@ -15,7 +15,7 @@ on:
         type: number
       FETCH_ENFORCE:
         required: true
-        description: EndInclusive Year
+        description: Fetch enforce
         default: false
         type: boolean
 
