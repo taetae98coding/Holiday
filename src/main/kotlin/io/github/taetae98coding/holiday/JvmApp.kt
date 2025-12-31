@@ -14,6 +14,8 @@ suspend fun main() {
     val startYear = System.getenv("START_YEAR").toInt()
     val endInclusiveYear = System.getenv("END_INCLUSIVE_YEAR").toInt()
 
+    println("RUN $startYear ~ $endInclusiveYear")
+
     coroutineScope {
         (startYear..endInclusiveYear).map { year -> async { updateHolidayJsonFile(year) } }
             .awaitAll()
