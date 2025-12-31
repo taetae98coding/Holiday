@@ -3,10 +3,12 @@ package io.github.taetae98coding.holiday.file
 import java.io.File
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.decodeFromStream
 import kotlinx.serialization.json.encodeToStream
 
+@OptIn(ExperimentalSerializationApi::class)
 data object FileDataSource {
     val printJson by lazy {
         Json {
