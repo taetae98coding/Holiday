@@ -475,7 +475,7 @@
     },
     {
         "name": "제헌절",
-        "isHoliday": false,
+        "isHoliday": true,
         "start": "2027-07-17",
         "endInclusive": "2027-07-17"
     },
