@@ -210,6 +210,12 @@
         "endInclusive": "2026-05-01"
     },
     {
+        "name": "노동절",
+        "isHoliday": true,
+        "start": "2026-05-01",
+        "endInclusive": "2026-05-01"
+    },
+    {
         "name": "어린이날",
         "isHoliday": true,
         "start": "2026-05-05",

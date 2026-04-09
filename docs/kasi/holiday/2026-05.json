@@ -1,6 +1,12 @@
 [
     {
         "dateKind": "01",
+        "dateName": "노동절",
+        "isHoliday": "Y",
+        "locdate": 20260501
+    },
+    {
+        "dateKind": "01",
         "dateName": "어린이날",
         "isHoliday": "Y",
         "locdate": 20260505
