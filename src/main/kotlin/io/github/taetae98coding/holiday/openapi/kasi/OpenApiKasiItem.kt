@@ -23,4 +23,5 @@ data class OpenApiKasiItem(
             .replace("대체공휴일(설날)", "설날")
             .replace("대체공휴일(추석)", "추석")
             .replace("임시공휴일\\((.*?)\\)".toRegex(), "$1")
+
 }

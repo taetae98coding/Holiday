@@ -29,7 +29,7 @@ fun List<Holiday>.holidayFold(): List<Holiday> {
 
                 val last = acc.last()
                 if (last.endInclusive.plus(1, DateTimeUnit.DAY) == holiday.start) {
-                    acc.dropLast(1) + last.copy(start = last.start, endInclusive = holiday.endInclusive)
+                    acc.dropLast(1) + last.copy(endInclusive = holiday.endInclusive)
                 } else {
                     acc + holiday
                 }
