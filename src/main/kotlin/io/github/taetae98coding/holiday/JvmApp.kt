@@ -7,6 +7,7 @@ import java.io.File
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
 import kotlinx.datetime.YearMonth
 import kotlinx.datetime.yearMonth
 
@@ -33,7 +34,7 @@ suspend fun updateHolidayJsonFile(year: Int) {
         )
             .awaitAll()
             .flatten()
-            .distinctBy { it.name.replace(" ", "") + it.date }
+            .distinctBy { it.name.replace(" ", "") to it.date }
     }
 
     val holidays = kasiItems.map(OpenApiKasiItem::toHoliday)
@@ -48,7 +49,7 @@ suspend fun updateHolidayJsonFile(year: Int) {
     coroutineScope {
         writeYearApi(year, holidays)
         (1..12).map { month -> YearMonth(year, month) }
-            .forEach { yearMonth -> async { writeYearMonthApi(yearMonth, holidays) } }
+            .forEach { yearMonth -> launch { writeYearMonthApi(yearMonth, holidays.filter { it.start.yearMonth <= yearMonth && yearMonth <= it.endInclusive.yearMonth }) } }
     }
 }
 
@@ -57,7 +58,6 @@ suspend fun writeYearApi(year: Int, value: List<Holiday>) {
 }
 
 suspend fun writeYearMonthApi(yearMonth: YearMonth, value: List<Holiday>) {
-    val value = value.filter { it.start.yearMonth <= yearMonth && yearMonth <= it.endInclusive.yearMonth }
     FileDataSource.write(value, File("docs/holiday", "$yearMonth.json"))
 }
 

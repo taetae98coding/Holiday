@@ -18,7 +18,7 @@ data object FileDataSource {
     }
 
     suspend inline fun <reified T> write(value: T, file: File) {
-        withContext(Dispatchers.Default) {
+        withContext(Dispatchers.IO) {
             file.parentFile?.mkdirs()
             file.outputStream()
                 .buffered()
@@ -27,7 +27,7 @@ data object FileDataSource {
     }
 
     suspend inline fun <reified T> read(file: File): T {
-        return withContext(Dispatchers.Default) {
+        return withContext(Dispatchers.IO) {
             file.inputStream()
                 .buffered()
                 .use { stream -> printJson.decodeFromStream(stream) }
