@@ -23,6 +23,7 @@ import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.sync.Semaphore
 import kotlinx.coroutines.sync.withPermit
 import kotlinx.datetime.TimeZone
+import kotlinx.datetime.UtcOffset
 import kotlinx.datetime.YearMonth
 import kotlinx.datetime.number
 import kotlinx.datetime.todayIn
@@ -97,7 +98,7 @@ data object OpenApiDataSource {
             }
             val body = response.body<OpenApiResult<OpenApiKasi>>()
 
-            if (response.status != HttpStatusCode.OK && body.response.header.code != "00") {
+            if (response.status != HttpStatusCode.OK || body.response.header.code != "00") {
                 throw Exception("Status=${response.status}, Code=${body.response.header.code}, Message=${body.response.header.message}")
             }
 
@@ -111,7 +112,7 @@ data object OpenApiDataSource {
             return false
         }
 
-        val today = Clock.System.todayIn(TimeZone.currentSystemDefault())
+        val today = Clock.System.todayIn(TimeZone.of("Asia/Seoul"))
         val isPast = yearMonth < today.yearMonth
 
         return isPast
