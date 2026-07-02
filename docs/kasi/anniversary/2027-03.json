@@ -43,6 +43,12 @@
     },
     {
         "dateKind": "02",
+        "dateName": "암 예방의 날",
+        "isHoliday": "N",
+        "locdate": 20270321
+    },
+    {
+        "dateKind": "02",
         "dateName": "서해수호의 날",
         "isHoliday": "N",
         "locdate": 20270326

@@ -102,6 +102,12 @@
         "endInclusive": "2027-03-19"
     },
     {
+        "name": "암 예방의 날",
+        "isHoliday": false,
+        "start": "2027-03-21",
+        "endInclusive": "2027-03-21"
+    },
+    {
         "name": "춘분",
         "isHoliday": false,
         "start": "2027-03-21",
@@ -228,12 +234,6 @@
         "endInclusive": "2027-04-28"
     },
     {
-        "name": "근로자의 날",
-        "isHoliday": false,
-        "start": "2027-05-01",
-        "endInclusive": "2027-05-01"
-    },
-    {
         "name": "노동절",
         "isHoliday": true,
         "start": "2027-05-01",
@@ -258,6 +258,12 @@
         "endInclusive": "2027-05-08"
     },
     {
+        "name": "양잠인의 날",
+        "isHoliday": false,
+        "start": "2027-05-10",
+        "endInclusive": "2027-05-10"
+    },
+    {
         "name": "유권자의 날",
         "isHoliday": false,
         "start": "2027-05-10",
@@ -276,6 +282,12 @@
         "endInclusive": "2027-05-11"
     },
     {
+        "name": "입양의 날",
+        "isHoliday": false,
+        "start": "2027-05-11",
+        "endInclusive": "2027-05-11"
+    },
+    {
         "name": "부처님오신날",
         "isHoliday": true,
         "start": "2027-05-13",
@@ -286,6 +298,12 @@
         "isHoliday": false,
         "start": "2027-05-14",
         "endInclusive": "2027-05-14"
+    },
+    {
+        "name": "가정의 날",
+        "isHoliday": false,
+        "start": "2027-05-15",
+        "endInclusive": "2027-05-15"
     },
     {
         "name": "세종대왕 나신 날",
@@ -336,6 +354,12 @@
         "endInclusive": "2027-05-21"
     },
     {
+        "name": "실종아동의 날",
+        "isHoliday": false,
+        "start": "2027-05-25",
+        "endInclusive": "2027-05-25"
+    },
+    {
         "name": "우주항공의 날",
         "isHoliday": false,
         "start": "2027-05-27",
@@ -346,18 +370,6 @@
         "isHoliday": false,
         "start": "2027-05-29",
         "endInclusive": "2027-05-29"
-    },
-    {
-        "name": "국회 개원기념일",
-        "isHoliday": false,
-        "start": "2027-05-31",
-        "endInclusive": "2027-05-31"
-    },
-    {
-        "name": "바다의 날",
-        "isHoliday": false,
-        "start": "2027-05-31",
-        "endInclusive": "2027-05-31"
     },
     {
         "name": "의병의 날",
@@ -390,6 +402,12 @@
         "endInclusive": "2027-06-09"
     },
     {
+        "name": "기록의 날",
+        "isHoliday": false,
+        "start": "2027-06-09",
+        "endInclusive": "2027-06-09"
+    },
+    {
         "name": "단오",
         "isHoliday": false,
         "start": "2027-06-09",
@@ -408,7 +426,7 @@
         "endInclusive": "2027-06-10"
     },
     {
-        "name": "헌혈의 날",
+        "name": "헌혈자의 날",
         "isHoliday": false,
         "start": "2027-06-14",
         "endInclusive": "2027-06-14"
@@ -444,6 +462,12 @@
         "endInclusive": "2027-06-26"
     },
     {
+        "name": "6·25전쟁 납북자 기억의 날",
+        "isHoliday": false,
+        "start": "2027-06-28",
+        "endInclusive": "2027-06-28"
+    },
+    {
         "name": "철도의 날",
         "isHoliday": false,
         "start": "2027-06-28",
@@ -454,6 +478,12 @@
         "isHoliday": false,
         "start": "2027-07-01",
         "endInclusive": "2027-07-01"
+    },
+    {
+        "name": "도농교류의 날",
+        "isHoliday": false,
+        "start": "2027-07-07",
+        "endInclusive": "2027-07-07"
     },
     {
         "name": "소서",
@@ -490,6 +520,12 @@
         "isHoliday": false,
         "start": "2027-07-18",
         "endInclusive": "2027-07-18"
+    },
+    {
+        "name": "대체공휴일(제헌절)",
+        "isHoliday": true,
+        "start": "2027-07-19",
+        "endInclusive": "2027-07-19"
     },
     {
         "name": "초복",
@@ -588,6 +624,12 @@
         "endInclusive": "2027-09-07"
     },
     {
+        "name": "화장품의 날",
+        "isHoliday": false,
+        "start": "2027-09-07",
+        "endInclusive": "2027-09-07"
+    },
+    {
         "name": "백로",
         "isHoliday": false,
         "start": "2027-09-08",
@@ -678,6 +720,12 @@
         "endInclusive": "2027-10-04"
     },
     {
+        "name": "동물보호의 날",
+        "isHoliday": false,
+        "start": "2027-10-04",
+        "endInclusive": "2027-10-04"
+    },
+    {
         "name": "세계 한인의 날",
         "isHoliday": false,
         "start": "2027-10-05",
@@ -698,6 +746,12 @@
     {
         "name": "한글날",
         "isHoliday": true,
+        "start": "2027-10-09",
+        "endInclusive": "2027-10-09"
+    },
+    {
+        "name": "호스피스의 날",
+        "isHoliday": false,
         "start": "2027-10-09",
         "endInclusive": "2027-10-09"
     },
@@ -774,6 +828,12 @@
         "endInclusive": "2027-10-29"
     },
     {
+        "name": "임업인의 날",
+        "isHoliday": false,
+        "start": "2027-11-01",
+        "endInclusive": "2027-11-01"
+    },
+    {
         "name": "학생독립운동 기념일",
         "isHoliday": false,
         "start": "2027-11-03",
@@ -808,6 +868,12 @@
         "isHoliday": false,
         "start": "2027-11-17",
         "endInclusive": "2027-11-17"
+    },
+    {
+        "name": "약의 날",
+        "isHoliday": false,
+        "start": "2027-11-18",
+        "endInclusive": "2027-11-18"
     },
     {
         "name": "아동학대 예방의 날",
@@ -874,5 +940,11 @@
         "isHoliday": false,
         "start": "2027-12-27",
         "endInclusive": "2027-12-27"
+    },
+    {
+        "name": "항공안전의 날",
+        "isHoliday": false,
+        "start": "2027-12-29",
+        "endInclusive": "2027-12-29"
     }
 ]

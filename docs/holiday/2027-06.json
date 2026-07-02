@@ -30,6 +30,12 @@
         "endInclusive": "2027-06-09"
     },
     {
+        "name": "기록의 날",
+        "isHoliday": false,
+        "start": "2027-06-09",
+        "endInclusive": "2027-06-09"
+    },
+    {
         "name": "단오",
         "isHoliday": false,
         "start": "2027-06-09",
@@ -48,7 +54,7 @@
         "endInclusive": "2027-06-10"
     },
     {
-        "name": "헌혈의 날",
+        "name": "헌혈자의 날",
         "isHoliday": false,
         "start": "2027-06-14",
         "endInclusive": "2027-06-14"
@@ -82,6 +88,12 @@
         "isHoliday": false,
         "start": "2027-06-26",
         "endInclusive": "2027-06-26"
+    },
+    {
+        "name": "6·25전쟁 납북자 기억의 날",
+        "isHoliday": false,
+        "start": "2027-06-28",
+        "endInclusive": "2027-06-28"
     },
     {
         "name": "철도의 날",

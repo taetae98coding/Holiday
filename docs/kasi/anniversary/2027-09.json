@@ -31,6 +31,12 @@
     },
     {
         "dateKind": "02",
+        "dateName": "화장품의 날",
+        "isHoliday": "N",
+        "locdate": 20270907
+    },
+    {
+        "dateKind": "02",
         "dateName": "숙련기술인의 날",
         "isHoliday": "N",
         "locdate": 20270909

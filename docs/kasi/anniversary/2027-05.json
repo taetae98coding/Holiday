@@ -1,7 +1,7 @@
 [
     {
         "dateKind": "02",
-        "dateName": "근로자의 날",
+        "dateName": "노동절",
         "isHoliday": "N",
         "locdate": 20270501
     },
@@ -31,7 +31,19 @@
     },
     {
         "dateKind": "02",
+        "dateName": "양잠인의 날",
+        "isHoliday": "N",
+        "locdate": 20270510
+    },
+    {
+        "dateKind": "02",
         "dateName": "동학농민혁명 기념일",
+        "isHoliday": "N",
+        "locdate": 20270511
+    },
+    {
+        "dateKind": "02",
+        "dateName": "입양의 날",
         "isHoliday": "N",
         "locdate": 20270511
     },
@@ -50,6 +62,12 @@
     {
         "dateKind": "02",
         "dateName": "세종대왕 나신 날",
+        "isHoliday": "N",
+        "locdate": 20270515
+    },
+    {
+        "dateKind": "02",
+        "dateName": "가정의 날",
         "isHoliday": "N",
         "locdate": 20270515
     },
@@ -85,6 +103,12 @@
     },
     {
         "dateKind": "02",
+        "dateName": "실종아동의 날",
+        "isHoliday": "N",
+        "locdate": 20270525
+    },
+    {
+        "dateKind": "02",
         "dateName": "우주항공의 날",
         "isHoliday": "N",
         "locdate": 20270527
@@ -94,17 +118,5 @@
         "dateName": "해외 파병용사의 날",
         "isHoliday": "N",
         "locdate": 20270529
-    },
-    {
-        "dateKind": "02",
-        "dateName": "바다의 날",
-        "isHoliday": "N",
-        "locdate": 20270531
-    },
-    {
-        "dateKind": "02",
-        "dateName": "국회 개원기념일",
-        "isHoliday": "N",
-        "locdate": 20270531
     }
 ]

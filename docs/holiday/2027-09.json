@@ -30,6 +30,12 @@
         "endInclusive": "2027-09-07"
     },
     {
+        "name": "화장품의 날",
+        "isHoliday": false,
+        "start": "2027-09-07",
+        "endInclusive": "2027-09-07"
+    },
+    {
         "name": "백로",
         "isHoliday": false,
         "start": "2027-09-08",

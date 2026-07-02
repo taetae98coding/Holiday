@@ -46,5 +46,11 @@
         "isHoliday": false,
         "start": "2027-12-27",
         "endInclusive": "2027-12-27"
+    },
+    {
+        "name": "항공안전의 날",
+        "isHoliday": false,
+        "start": "2027-12-29",
+        "endInclusive": "2027-12-29"
     }
 ]

@@ -25,6 +25,12 @@
     },
     {
         "dateKind": "02",
+        "dateName": "기록의 날",
+        "isHoliday": "N",
+        "locdate": 20270609
+    },
+    {
+        "dateKind": "02",
         "dateName": "6·10민주항쟁 기념일",
         "isHoliday": "N",
         "locdate": 20270610
@@ -37,7 +43,7 @@
     },
     {
         "dateKind": "02",
-        "dateName": "헌혈의 날",
+        "dateName": "헌혈자의 날",
         "isHoliday": "N",
         "locdate": 20270614
     },
@@ -68,6 +74,12 @@
     {
         "dateKind": "02",
         "dateName": "철도의 날",
+        "isHoliday": "N",
+        "locdate": 20270628
+    },
+    {
+        "dateKind": "02",
+        "dateName": "6·25전쟁 납북자 기억의 날",
         "isHoliday": "N",
         "locdate": 20270628
     }

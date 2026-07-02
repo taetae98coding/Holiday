@@ -22,5 +22,11 @@
         "dateName": "원자력 안전 및 진흥의 날",
         "isHoliday": "N",
         "locdate": 20271227
+    },
+    {
+        "dateKind": "02",
+        "dateName": "항공안전의 날",
+        "isHoliday": "N",
+        "locdate": 20271229
     }
 ]

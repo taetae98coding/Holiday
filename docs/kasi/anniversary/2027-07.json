@@ -7,6 +7,12 @@
     },
     {
         "dateKind": "02",
+        "dateName": "도농교류의 날",
+        "isHoliday": "N",
+        "locdate": 20270707
+    },
+    {
+        "dateKind": "02",
         "dateName": "인구의 날",
         "isHoliday": "N",
         "locdate": 20270711

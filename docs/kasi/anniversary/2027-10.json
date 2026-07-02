@@ -13,6 +13,12 @@
     },
     {
         "dateKind": "02",
+        "dateName": "동물보호의 날",
+        "isHoliday": "N",
+        "locdate": 20271004
+    },
+    {
+        "dateKind": "02",
         "dateName": "세계 한인의 날",
         "isHoliday": "N",
         "locdate": 20271005
@@ -22,6 +28,12 @@
         "dateName": "재향군인의 날",
         "isHoliday": "N",
         "locdate": 20271008
+    },
+    {
+        "dateKind": "02",
+        "dateName": "호스피스의 날",
+        "isHoliday": "N",
+        "locdate": 20271009
     },
     {
         "dateKind": "02",
