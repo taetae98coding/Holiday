@@ -18,6 +18,12 @@
         "endInclusive": "2028-04-05"
     },
     {
+        "name": "한식",
+        "isHoliday": false,
+        "start": "2028-04-05",
+        "endInclusive": "2028-04-05"
+    },
+    {
         "name": "보건의 날",
         "isHoliday": false,
         "start": "2028-04-07",

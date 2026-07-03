@@ -6,6 +6,12 @@
         "endInclusive": "2028-02-04"
     },
     {
+        "name": "정월대보름",
+        "isHoliday": false,
+        "start": "2028-02-10",
+        "endInclusive": "2028-02-10"
+    },
+    {
         "name": "우수",
         "isHoliday": false,
         "start": "2028-02-19",

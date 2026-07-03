@@ -132,6 +132,12 @@
         "endInclusive": "2028-05-27"
     },
     {
+        "name": "단오",
+        "isHoliday": false,
+        "start": "2028-05-28",
+        "endInclusive": "2028-05-28"
+    },
+    {
         "name": "해외 파병용사의 날",
         "isHoliday": false,
         "start": "2028-05-29",

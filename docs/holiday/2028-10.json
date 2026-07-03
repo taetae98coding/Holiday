@@ -48,6 +48,12 @@
         "endInclusive": "2028-10-08"
     },
     {
+        "name": "한로",
+        "isHoliday": false,
+        "start": "2028-10-08",
+        "endInclusive": "2028-10-08"
+    },
+    {
         "name": "한글날",
         "isHoliday": true,
         "start": "2028-10-09",
@@ -94,6 +100,12 @@
         "isHoliday": false,
         "start": "2028-10-21",
         "endInclusive": "2028-10-21"
+    },
+    {
+        "name": "상강",
+        "isHoliday": false,
+        "start": "2028-10-23",
+        "endInclusive": "2028-10-23"
     },
     {
         "name": "국제연합일",

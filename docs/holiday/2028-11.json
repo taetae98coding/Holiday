@@ -12,6 +12,12 @@
         "endInclusive": "2028-11-03"
     },
     {
+        "name": "입동",
+        "isHoliday": false,
+        "start": "2028-11-07",
+        "endInclusive": "2028-11-07"
+    },
+    {
         "name": "소방의 날",
         "isHoliday": false,
         "start": "2028-11-09",
@@ -49,6 +55,12 @@
     },
     {
         "name": "김치의 날",
+        "isHoliday": false,
+        "start": "2028-11-22",
+        "endInclusive": "2028-11-22"
+    },
+    {
+        "name": "소설",
         "isHoliday": false,
         "start": "2028-11-22",
         "endInclusive": "2028-11-22"

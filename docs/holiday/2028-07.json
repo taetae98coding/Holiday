@@ -6,6 +6,12 @@
         "endInclusive": "2028-07-01"
     },
     {
+        "name": "소서",
+        "isHoliday": false,
+        "start": "2028-07-06",
+        "endInclusive": "2028-07-06"
+    },
+    {
         "name": "도농교류의 날",
         "isHoliday": false,
         "start": "2028-07-07",
@@ -30,6 +36,12 @@
         "endInclusive": "2028-07-14"
     },
     {
+        "name": "초복",
+        "isHoliday": false,
+        "start": "2028-07-14",
+        "endInclusive": "2028-07-14"
+    },
+    {
         "name": "제헌절",
         "isHoliday": true,
         "start": "2028-07-17",
@@ -40,6 +52,18 @@
         "isHoliday": false,
         "start": "2028-07-18",
         "endInclusive": "2028-07-18"
+    },
+    {
+        "name": "대서",
+        "isHoliday": false,
+        "start": "2028-07-22",
+        "endInclusive": "2028-07-22"
+    },
+    {
+        "name": "중복",
+        "isHoliday": false,
+        "start": "2028-07-24",
+        "endInclusive": "2028-07-24"
     },
     {
         "name": "유엔군 참전의 날",

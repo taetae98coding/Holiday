@@ -18,6 +18,18 @@
         "endInclusive": "2028-12-05"
     },
     {
+        "name": "대설",
+        "isHoliday": false,
+        "start": "2028-12-06",
+        "endInclusive": "2028-12-06"
+    },
+    {
+        "name": "동지",
+        "isHoliday": false,
+        "start": "2028-12-21",
+        "endInclusive": "2028-12-21"
+    },
+    {
         "name": "크리스마스",
         "isHoliday": true,
         "start": "2028-12-25",

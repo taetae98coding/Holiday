@@ -2,7 +2,7 @@
     {
         "name": "소서",
         "isHoliday": false,
-        "start": "2026-07-06",
+        "start": "2026-07-07",
         "endInclusive": "2026-07-07"
     },
     {
@@ -38,7 +38,7 @@
     {
         "name": "대서",
         "isHoliday": false,
-        "start": "2026-07-22",
+        "start": "2026-07-23",
         "endInclusive": "2026-07-23"
     },
     {

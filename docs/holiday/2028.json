@@ -30,6 +30,12 @@
         "endInclusive": "2028-02-04"
     },
     {
+        "name": "정월대보름",
+        "isHoliday": false,
+        "start": "2028-02-10",
+        "endInclusive": "2028-02-10"
+    },
+    {
         "name": "우수",
         "isHoliday": false,
         "start": "2028-02-19",
@@ -127,6 +133,12 @@
     },
     {
         "name": "식목일",
+        "isHoliday": false,
+        "start": "2028-04-05",
+        "endInclusive": "2028-04-05"
+    },
+    {
+        "name": "한식",
         "isHoliday": false,
         "start": "2028-04-05",
         "endInclusive": "2028-04-05"
@@ -360,6 +372,12 @@
         "endInclusive": "2028-05-27"
     },
     {
+        "name": "단오",
+        "isHoliday": false,
+        "start": "2028-05-28",
+        "endInclusive": "2028-05-28"
+    },
+    {
         "name": "해외 파병용사의 날",
         "isHoliday": false,
         "start": "2028-05-29",
@@ -420,6 +438,12 @@
         "endInclusive": "2028-06-14"
     },
     {
+        "name": "하지",
+        "isHoliday": false,
+        "start": "2028-06-21",
+        "endInclusive": "2028-06-21"
+    },
+    {
         "name": "해양조사의 날",
         "isHoliday": false,
         "start": "2028-06-21",
@@ -462,6 +486,12 @@
         "endInclusive": "2028-07-01"
     },
     {
+        "name": "소서",
+        "isHoliday": false,
+        "start": "2028-07-06",
+        "endInclusive": "2028-07-06"
+    },
+    {
         "name": "도농교류의 날",
         "isHoliday": false,
         "start": "2028-07-07",
@@ -486,6 +516,12 @@
         "endInclusive": "2028-07-14"
     },
     {
+        "name": "초복",
+        "isHoliday": false,
+        "start": "2028-07-14",
+        "endInclusive": "2028-07-14"
+    },
+    {
         "name": "제헌절",
         "isHoliday": true,
         "start": "2028-07-17",
@@ -498,16 +534,40 @@
         "endInclusive": "2028-07-18"
     },
     {
+        "name": "대서",
+        "isHoliday": false,
+        "start": "2028-07-22",
+        "endInclusive": "2028-07-22"
+    },
+    {
+        "name": "중복",
+        "isHoliday": false,
+        "start": "2028-07-24",
+        "endInclusive": "2028-07-24"
+    },
+    {
         "name": "유엔군 참전의 날",
         "isHoliday": false,
         "start": "2028-07-27",
         "endInclusive": "2028-07-27"
     },
     {
+        "name": "입추",
+        "isHoliday": false,
+        "start": "2028-08-07",
+        "endInclusive": "2028-08-07"
+    },
+    {
         "name": "섬의 날",
         "isHoliday": false,
         "start": "2028-08-08",
         "endInclusive": "2028-08-08"
+    },
+    {
+        "name": "말복",
+        "isHoliday": false,
+        "start": "2028-08-13",
+        "endInclusive": "2028-08-13"
     },
     {
         "name": "일본군위안부 피해자 기림의 날",
@@ -520,6 +580,18 @@
         "isHoliday": true,
         "start": "2028-08-15",
         "endInclusive": "2028-08-15"
+    },
+    {
+        "name": "처서",
+        "isHoliday": false,
+        "start": "2028-08-22",
+        "endInclusive": "2028-08-22"
+    },
+    {
+        "name": "칠석",
+        "isHoliday": false,
+        "start": "2028-08-26",
+        "endInclusive": "2028-08-26"
     },
     {
         "name": "여권통문의 날",
@@ -535,6 +607,12 @@
     },
     {
         "name": "곤충의 날",
+        "isHoliday": false,
+        "start": "2028-09-07",
+        "endInclusive": "2028-09-07"
+    },
+    {
+        "name": "백로",
         "isHoliday": false,
         "start": "2028-09-07",
         "endInclusive": "2028-09-07"
@@ -580,6 +658,12 @@
         "isHoliday": false,
         "start": "2028-09-21",
         "endInclusive": "2028-09-21"
+    },
+    {
+        "name": "추분",
+        "isHoliday": false,
+        "start": "2028-09-22",
+        "endInclusive": "2028-09-22"
     },
     {
         "name": "개인정보 보호의 날",
@@ -642,6 +726,12 @@
         "endInclusive": "2028-10-08"
     },
     {
+        "name": "한로",
+        "isHoliday": false,
+        "start": "2028-10-08",
+        "endInclusive": "2028-10-08"
+    },
+    {
         "name": "한글날",
         "isHoliday": true,
         "start": "2028-10-09",
@@ -690,6 +780,12 @@
         "endInclusive": "2028-10-21"
     },
     {
+        "name": "상강",
+        "isHoliday": false,
+        "start": "2028-10-23",
+        "endInclusive": "2028-10-23"
+    },
+    {
         "name": "국제연합일",
         "isHoliday": false,
         "start": "2028-10-24",
@@ -724,6 +820,12 @@
         "isHoliday": false,
         "start": "2028-11-03",
         "endInclusive": "2028-11-03"
+    },
+    {
+        "name": "입동",
+        "isHoliday": false,
+        "start": "2028-11-07",
+        "endInclusive": "2028-11-07"
     },
     {
         "name": "소방의 날",
@@ -768,6 +870,12 @@
         "endInclusive": "2028-11-22"
     },
     {
+        "name": "소설",
+        "isHoliday": false,
+        "start": "2028-11-22",
+        "endInclusive": "2028-11-22"
+    },
+    {
         "name": "소비자의 날",
         "isHoliday": false,
         "start": "2028-12-03",
@@ -784,6 +892,18 @@
         "isHoliday": false,
         "start": "2028-12-05",
         "endInclusive": "2028-12-05"
+    },
+    {
+        "name": "대설",
+        "isHoliday": false,
+        "start": "2028-12-06",
+        "endInclusive": "2028-12-06"
+    },
+    {
+        "name": "동지",
+        "isHoliday": false,
+        "start": "2028-12-21",
+        "endInclusive": "2028-12-21"
     },
     {
         "name": "크리스마스",

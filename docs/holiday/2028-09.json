@@ -18,6 +18,12 @@
         "endInclusive": "2028-09-07"
     },
     {
+        "name": "백로",
+        "isHoliday": false,
+        "start": "2028-09-07",
+        "endInclusive": "2028-09-07"
+    },
+    {
         "name": "사회복지의 날",
         "isHoliday": false,
         "start": "2028-09-07",
@@ -58,6 +64,12 @@
         "isHoliday": false,
         "start": "2028-09-21",
         "endInclusive": "2028-09-21"
+    },
+    {
+        "name": "추분",
+        "isHoliday": false,
+        "start": "2028-09-22",
+        "endInclusive": "2028-09-22"
     },
     {
         "name": "개인정보 보호의 날",

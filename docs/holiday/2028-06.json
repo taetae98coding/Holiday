@@ -54,6 +54,12 @@
         "endInclusive": "2028-06-14"
     },
     {
+        "name": "하지",
+        "isHoliday": false,
+        "start": "2028-06-21",
+        "endInclusive": "2028-06-21"
+    },
+    {
         "name": "해양조사의 날",
         "isHoliday": false,
         "start": "2028-06-21",

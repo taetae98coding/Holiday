@@ -7,18 +7,6 @@
     },
     {
         "dateKind": "03",
-        "dateName": "입동",
-        "isHoliday": "N",
-        "locdate": 20261107
-    },
-    {
-        "dateKind": "03",
-        "dateName": "소설",
-        "isHoliday": "N",
-        "locdate": 20261122
-    },
-    {
-        "dateKind": "03",
         "dateName": "소설",
         "isHoliday": "N",
         "locdate": 20261122
